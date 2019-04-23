@@ -6,8 +6,8 @@ You can also upload existing files from your computer using the instructions bel
 
 ### To stabilish a ssh connection:
 
-> $ eval (ssh-agent -s)  
-> $ ssh-add ~/.ssh/[key_file]  
+> eval (ssh-agent -s)  
+> ssh-add ~/.ssh/[key_file]  
 
 ### Git global setup
 
