@@ -15,10 +15,8 @@
 
 Options: 
 
-    -f, --file FILE             Specify an alternate compose file
-                              (default: docker-compose.yml)  
-    p, --project-name NAME     Specify an alternate project name
-                              (default: directory name)  
+    -f, --file FILE             Specify an alternate compose file (default: docker-compose.yml)  
+    p, --project-name NAME     Specify an alternate project name (default: directory name)  
   --verbose                   Show more output
   --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
   --no-ansi                   Do not print ANSI control characters
