@@ -4,13 +4,13 @@
 
 ### Volume path (on linux)
 
-> /var/lib/docker/volumes/ (only accessible by root user)
+    /var/lib/docker/volumes/ (only accessible by root user)
 
 ## docker-compose
 
 ### Buid an image of especific service
 
-> docker compose build [options] [--build-arg key=val...] [service_name]
+    docker compose build [options] [--build-arg key=val...] [service_name]
 
 Options:  
 
@@ -24,11 +24,11 @@ Options:
 
 ### Run a command inside a container service
 
-> docker-compose exec [service_name] [command]
+    docker-compose exec [service_name] [command]
 
 ## References
 
 ### Volume
 
-> https://docs.docker.com/storage/#start-a-service-with-volumes
+    https://docs.docker.com/storage/#start-a-service-with-volumes
 
