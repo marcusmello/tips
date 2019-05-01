@@ -13,11 +13,12 @@
     docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
     docker-compose -h|--help
 
-Options:  
+Options: 
+
     -f, --file FILE             Specify an alternate compose file
-                              (default: docker-compose.yml)
+                              (default: docker-compose.yml)  
     p, --project-name NAME     Specify an alternate project name
-                              (default: directory name)
+                              (default: directory name)  
   --verbose                   Show more output
   --log-level LEVEL           Set log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
   --no-ansi                   Do not print ANSI control characters
