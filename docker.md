@@ -2,6 +2,10 @@
 
 ## docker
 
+### Volume path (on linux)
+
+> /var/lib/docker/volumes/ (only accessible by root user)
+
 ## docker-compose
 
 ### Buid an image of especific service
