@@ -13,7 +13,8 @@
 > docker compose build [options] [--build-arg key=val...] [service_name]
 
 Options:  
-  --compress              Compress the build context using gzip.  
+
+      --compress              Compress the build context using gzip.  
   --force-rm              Always remove intermediate containers.  
   --no-cache              Do not use cache when building the image.  
   --pull                  Always attempt to pull a newer version of the image.  
