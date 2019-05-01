@@ -18,7 +18,7 @@ You can also upload existing files from your computer using the instructions bel
 
 Create README.md or any other file(s) or folder (s)
 
-    git clone git@gitlab.com:[path]/[project_name].git  
+    git clone git@[your_git_host]:[path]/[project_name].git  
     cd [project_name]  
     touch README.md  
     git add README.md  
@@ -29,7 +29,7 @@ Create README.md or any other file(s) or folder (s)
 
     cd existing_folder  
     git init  
-    git remote add origin git@gitlab.com:[path]/[project_name].git  
+    git remote add origin git@[your_git_host]:[path]/[project_name].git  
     git add .  
     git commit -m "Initial commit"  
     git push -u origin [branch]  
@@ -38,6 +38,6 @@ Create README.md or any other file(s) or folder (s)
 
     cd existing_repo  
     git remote rename origin old-origin  
-    git remote add origin git@gitlab.com:[path]/[project_name].git  
+    git remote add origin git@[your_git_host]:[path]/[project_name].git  
     git push -u origin --all  
     git push -u origin --tags  
