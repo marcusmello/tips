@@ -1,4 +1,4 @@
-# Git
+# Cheat Sheet Git commands
 
 ## Command line instructions for ssh connectios.
 
