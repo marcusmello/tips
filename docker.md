@@ -1,12 +1,12 @@
 # Cheat Sheet for some Docker commands
 
-## docker
+## I - docker
 
 ### Volume path (on linux)
 
     /var/lib/docker/volumes/ (only accessible by root user)
 
-## docker-compose
+## II - docker-compose
 
 ### Buid an image of especific service
 
