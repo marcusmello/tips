@@ -246,13 +246,9 @@
             
     pd.concat([df1, df2],axis=1)  
 
-### SQL-style join the columns in df1 with the columns on df2 where the rows for
+### SQL-style join the columns in df1 with the columns on df2 where the rows for col have identical values. 'how' can be one of 'left', 'right', 'outer', 'inner'
             
     df1.join(df2,on=col1,how='inner')  
-
-### col have identical values. 'how' can be one of 'left', 'right', 'outer', 'inner'
-            
-    col have identical values. 'how' can be one of 'left', 'right', 'outer', 'inner'  
 
 ## Statistics (These can all be applied to a series as well)
 
