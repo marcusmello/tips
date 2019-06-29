@@ -1,7 +1,28 @@
-Importing Data
-pd.read_csv(filename) | From a CSV file
-pd.read_table(filename) | From a delimited text file (like TSV)
-pd.read_excel(filename) | From an Excel file
+# Cheat Sheet Git commands
+
+## Command line instructions for ssh connectios.
+
+You can also upload existing files from your computer using the instructions below.
+
+### To stabilish a ssh connection:
+
+    eval $(ssh-agent -s)  
+    ssh-add ~/.ssh/[key_file]  
+
+### Git global setup
+
+    git config --global user.name "[your_git_user]"  
+    git config --global user.email "[your_git_login_email]"  
+
+# Cheat sheet for python pandas
+
+### Importing Data
+
+    pd.read_csv(filename) | From a CSV file  
+    
+    pd.read_table(filename) | From a delimited text file (like TSV)  
+    
+    pd.read_excel(filename) | From an Excel file
 pd.read_sql(query, connection_object) | Read from a SQL table/database
 pd.read_json(json_string) | Read from a JSON formatted string, URL or file.
 pd.read_html(url) | Parses an html URL, string or file and extracts tables to a list of dataframes
