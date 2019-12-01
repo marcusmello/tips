@@ -13,7 +13,7 @@
     docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
     docker-compose -h|--help
 
-Options: 
+Options:
 
     -f, --file FILE             Specify an alternate compose file (default: docker-compose.yml)  
     -p, --project-name NAME     Specify an alternate project name (default: directory name)  
@@ -82,5 +82,4 @@ Options:
 
 ### Volume
 
-> https://docs.docker.com/storage/#start-a-service-with-volumes
-
+> <https://docs.docker.com/storage/#start-a-service-with-volumes>
