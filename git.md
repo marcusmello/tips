@@ -1,10 +1,10 @@
 # Cheat Sheet Git commands
 
-## Command line instructions for ssh connectios.
+## Command line instructions for ssh connectios
 
 You can also upload existing files from your computer using the instructions below.
 
-### To stabilish a ssh connection:
+### To stabilish a ssh connection
 
     eval $(ssh-agent -s)  
     ssh-add ~/.ssh/[key_file]  
@@ -40,4 +40,4 @@ Create README.md or any other file(s) or folder (s)
     git remote rename origin old-origin  
     git remote add origin git@[your_git_host]:[path]/[project_name].git  
     git push -u origin --all  
-    git push -u origin --tags  
+    git push -u origin --tags
