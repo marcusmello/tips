@@ -8,6 +8,11 @@
 
 ## II - docker-compose
 
+### .yml file syntax
+
+    ports:
+      - 'host:container'
+
 ### General usage
 
     docker-compose [-f <arg>...] [options] [COMMAND] [ARGS...]
