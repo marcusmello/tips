@@ -12,10 +12,16 @@
 
 #### Network Aliases
 
-    logging:
-      driver: syslog
-      options:
-        syslog-address: "tcp://192.168.0.42:123"
+    services:
+      some-service:
+        networks:
+          some-network:
+            aliases:
+             - alias1
+             - alias3
+          other-network:
+            aliases:
+             - alias2
 
 #### Ports Bind
 
