@@ -12,6 +12,14 @@
 
 #### Network Aliases
 
+Aliases (alternative hostnames) for this service on the network. Other containers on the same network can use either the service name or this alias to connect to one of the service’s containers.
+
+Since aliases is network-scoped, the same service can have different aliases on different networks.
+
+    Note: A network-wide alias can be shared by multiple containers, and even by multiple services. If it is, then exactly which container the name resolves to is not guaranteed.
+
+The general format is shown here:
+
     services:
       some-service:
         networks:
