@@ -32,3 +32,7 @@
     pipenv run python manage.py migrate
 
     pipenv run python manage.py shell_plus --notebook
+
+## Found PID of a background runserver
+    
+    ps auxw | grep runserver
