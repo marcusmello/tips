@@ -25,3 +25,9 @@
     pipenv run python manage.py migrate
 
     pipenv run python manage.py shell_plus --notebook
+
+### Observação
+
+Ao usar o Django 3.0, é preciso definor no jupter:
+
+    os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
