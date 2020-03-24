@@ -59,7 +59,7 @@
     {% block nav-global %}{% endblock %}
 ```
 
-- Point to template folder on django settings.py
+- Point to template folder on django **settings.py**
 ```templatepath
 TEMPLATES = [
     {
