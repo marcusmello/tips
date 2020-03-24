@@ -36,3 +36,11 @@
 ## Found PID of a background runserver
     
     ps auxw | grep runserver
+
+## Change ‘Django administration’ text
+
+- Create the template
+
+├── django_root_folder
+│       └── admin
+│           └── base_site.html
