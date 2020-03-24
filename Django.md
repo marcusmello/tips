@@ -45,6 +45,24 @@
 │       └── admin
 │           └── base_site.html
 ```
+- Point to template folder on django settings.py
+```templatepath
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
 
 - On 'base_site.html' put this content
 ```html
@@ -53,8 +71,10 @@
     {% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
     
     {% block branding %}
-    <h1 id="[YOUR_NAME_ID]"><a href="{% url 'admin:index' %}">{YOUR-WELLCOME TEXT}</a></h1>
+    <h1 id="[YOUR_NAME_ID]"><a href="{% url 'admin:index' %}">[YOUR-WELLCOME TEXT]</a></h1>
     {% endblock %}
     
     {% block nav-global %}{% endblock %}
 ```
+
+- 
