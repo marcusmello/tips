@@ -80,7 +80,7 @@ TEMPLATES = [
 
 - Declare ***site_headers***, ***site_title*** and ***index_title*** on django ***urls.py***
 ```urlspy
-admin.site.site_header = "Pandazord Admin"
-admin.site.site_title = "Pandazord Admin Panel"
-admin.site.index_title = "This is your Admin Panel"
+admin.site.site_header = "[YOUR_SITE_HEADER]"
+admin.site.site_title = "[YOUR_SITE_TITLE]"
+admin.site.index_title = "[YOUR_INDEX_TITLE]"
 ```
