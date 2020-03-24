@@ -45,3 +45,15 @@
 │       └── admin
 │           └── base_site.html
 ```
+
+- On 'base_site.html' put this content
+
+    {% extends "admin/base.html" %}
+    
+    {% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
+    
+    {% block branding %}
+    <h1 id="[YOUR_NAME_ID]"><a href="{% url 'admin:index' %}">{YOUR-WELLCOME TEXT}</a></h1>
+    {% endblock %}
+    
+    {% block nav-global %}{% endblock %}
