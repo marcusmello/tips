@@ -40,14 +40,14 @@
 ## Change ‘Django administration’ text
 
 - Create the template
-```
+```tree
 ├── django_root_folder
 │       └── admin
 │           └── base_site.html
 ```
 
 - On 'base_site.html' put this content
-
+```html
     {% extends "admin/base.html" %}
     
     {% block title %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
@@ -57,3 +57,4 @@
     {% endblock %}
     
     {% block nav-global %}{% endblock %}
+```
