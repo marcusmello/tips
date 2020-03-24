@@ -46,7 +46,7 @@
 │           └── base_site.html
 ```
 
-- On 'base_site.html' put this content
+- On ***base_site.html*** put this content
 ```html
     {% extends "admin/base.html" %}
     
@@ -59,7 +59,7 @@
     {% block nav-global %}{% endblock %}
 ```
 
-- Point to template folder on django **settings.py**
+- Point to template folder on django ***settings.py***
 ```templatepath
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
 ]
 ```
 
-- Declare site_headers, site_title and index_title on django urls.py
+- Declare ***site_headers***, ***site_title*** and ***index_title*** on django ***urls.py***
 ```urlspy
 admin.site.site_header = "Pandazord Admin"
 admin.site.site_title = "Pandazord Admin Panel"
