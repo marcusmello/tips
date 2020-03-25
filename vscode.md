@@ -8,4 +8,4 @@
 | `Python Preview` |    Dongoli   |
 | `AutoDocstring`  | Niels Werner |
 | `Python test explorer for visual code`  | Little Fox Team |
-| `pyright`  | ms-pyright |
+| `Pyright`  | ms-pyright |
