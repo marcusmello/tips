@@ -6,11 +6,10 @@
 
     pipenv install ipykernel jupyter 
     
-or  
+or  (to install a dev package)  
 
     pipenv install --dev ipykernel jupyter   
 
-to install a dev package  
 
 2 - Kernel's name  
 
@@ -31,11 +30,9 @@ or logging to a file, instead the terminal
 
     pipenv install jupyter ipython django-extensions  
     
-or  
+or  (to install a dev package)   
 
     pipenv install --dev jupyter ipython django-extensions     
-
-to install a dev package  
 
 2 - Declare jupyter-notebok on **settings.py**  
 
