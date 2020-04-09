@@ -2,9 +2,9 @@
 
 ## Jupyter notebook on pipenv's kernel
 
-    pipenv install ipykernel jupyter ou
+    pipenv install ipykernel jupyter ou  
     
-    pipenv install --dev ipykernel jupyter to install a dev package
+    pipenv install --dev ipykernel jupyter to install a dev package  
 
     pipenv run python -m ipykernel install --user --name=$(basename $(pwd))
 
