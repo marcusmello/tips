@@ -2,12 +2,16 @@
 
 ## Jupyter notebook on pipenv's kernel
 
-    pipenv install ipykernel jupyter ou  
+1 - Installation
+    pipenv install ipykernel jupyter 
     
+ou  
     pipenv install --dev ipykernel jupyter to install a dev package  
 
+2 - Kernel's name
     pipenv run python -m ipykernel install --user --name=$(basename $(pwd))
 
+3 - Launch the notebook, logging to a file, instead the terminal
     pipenv run jupyter notebook > jupyterlog 2>&1 &
   
     
