@@ -58,3 +58,13 @@ or logging to a file, instead the terminal
 Using it with Django 3.0, need to define on notebook:
 
     os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
+
+## Handling kernels
+
+1 - Inpect kernels:
+
+    jupyter kernelspec list
+
+2 - Delete undesired kernel
+
+    jupyter kernelspec uninstall <unwanted-kernel>
