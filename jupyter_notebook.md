@@ -12,12 +12,12 @@ or  (to install a dev package)
 
 
 2 - Kernel's name  
-    
-  2.1 - Bash
+
+> 2.1 - Bash
   
     pipenv run python -m ipykernel install --user --name=$(basename $(pwd))
   
-  2.2 - Fish
+> 2.2 - Fish
     
     pipenv run python -m ipykernel install --user --name=(basename (pwd))
 
