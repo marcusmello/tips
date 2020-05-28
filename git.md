@@ -40,3 +40,17 @@
 ## Git repository "inside" a git repository
 
     git submodule add <git_remote_url> <local path>
+
+## Delete branch
+    
+### delete branch locally
+
+    git branch -d localBranchName
+
+### delete branch remotely
+
+    git push origin --delete remoteBranchName
+
+### Synchronize branch list
+
+    git fetch -p
