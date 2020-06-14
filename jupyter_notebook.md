@@ -120,3 +120,12 @@ After 1st step, you could do:
     $env shell
 
 ... and perform commands with no need of "$env run".
+
+## Documentation and Presentation production
+
+[nbconvert](https://nbconvert.readthedocs.io)
+
+## Estudar
+
+* [ ] <https://medium.com/creditas-tech/fazendo-pull-requests-com-jupyter-notebooks-c88f52316b79>
+* [ ] <https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook>
