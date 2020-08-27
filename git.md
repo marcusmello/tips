@@ -81,3 +81,7 @@ You'll need to do this, for each terminal session, unless you add to a config fi
 ### Synchronize branch list
 
     git fetch -p
+
+## Untrack ignored file
+
+    git rm --cached <file_1> ... <file_n>
