@@ -21,7 +21,7 @@ You’ll see a response similar to:
 
 You'll need to do this, for each terminal session, unless you add to a config file, in the same keys folder:
 
-    ```
+    ```bash
     # GitLab.com
     Host gitlab.com
     Preferredauthentications publickey
