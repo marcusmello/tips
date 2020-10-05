@@ -21,17 +21,17 @@ You’ll see a response similar to:
 
 You'll need to do this, for each terminal session, unless you add to a config file, in the same keys folder:
 
-    ```bat
-    # GitLab.com
-    Host gitlab.com
-    Preferredauthentications publickey
-    IdentityFile ~/.ssh/gitlab
+```sh
+# GitLab.com
+Host gitlab.com
+Preferredauthentications publickey
+IdentityFile ~/.ssh/gitlab
 
-    # GitHub.com
-    Host github.com
-    Preferredauthentications publickey
-    IdentityFile ~/.ssh/github
-    ```
+# GitHub.com
+Host github.com
+Preferredauthentications publickey
+IdentityFile ~/.ssh/github
+```
 
 ## Git global setup
 
