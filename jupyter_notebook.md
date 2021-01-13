@@ -14,7 +14,7 @@
 
 1 - Installation  
 
-    poetry add jupyter 
+    poetry add ipykernel jupyter   
 
 or  (to install a dev package)  
 
