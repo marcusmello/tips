@@ -85,3 +85,24 @@ IdentityFile ~/.ssh/github
 ## Untrack ignored file
 
     git rm --cached <file_1> ... <file_n>
+
+## Solve merge conflicts locally
+
+### Step 1. Fetch and check out the branch for this merge request
+
+    git fetch origin
+    git checkout -b <issue_branch_name-merge-conflict> origin/<issue_branch_name>
+
+### Step 2. Review 
+
+Review, save and commit the changes locally
+
+### Step 3. Merge the branch and fix any conflicts that come up
+
+    git fetch origin
+    git checkout <issue_branch_name>
+    git merge --no-ff <issue_branch_name-merge-conflict>
+
+### Step 4. Push the result of the merge to your issue branch
+
+    git push origin <issue_branch_name>
